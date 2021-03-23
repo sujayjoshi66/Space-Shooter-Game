@@ -8,7 +8,6 @@ import time
 import os
 from pygame import mixer
 pygame.font.init()
-mixer.init()
  
 #set up the window
 width = 900
