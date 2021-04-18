@@ -1,7 +1,8 @@
 # Space-Shooter-Game
 The necessary images are stored in "game_images" file.
 Instructions
-1) Rune the game.py file
+
+1) Run the game.py file
 2) Following are the controls
     UP, DOWN, LEFT, RIGHT are used for the movement of the main player spaceship
     SPACE key is used to shoot the laser.
