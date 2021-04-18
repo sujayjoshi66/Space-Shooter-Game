@@ -1,5 +1,6 @@
 # Space-Shooter-Game
 The necessary images are stored in "game_images" file.
+
 Instructions
 
 1) Run the game.py file
