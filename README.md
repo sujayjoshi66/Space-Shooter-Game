@@ -1,5 +1,5 @@
 # Space-Shooter-Game
-The necessary images are stored in "game_images" file.
+The necessary images are stored in "game_images" folder.
 
 Instructions
 
