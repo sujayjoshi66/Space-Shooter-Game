@@ -22,13 +22,11 @@ pygame.display.set_caption("SPACE SHOOTER GAME")
 main_player = pygame.image.load(os.path.join("game_images","pixel_ship_yellow.png"))         #denotes the player ship(us)
 
 #enemy ships
-blue_enemy = pygame.image.load(os.path.join("game_images","pixel_ship_blue_small.png"))
 red_enemy = pygame.image.load(os.path.join("game_images","pixel_ship_red_small.png"))
 green_enemy = pygame.image.load(os.path.join("game_images","pixel_ship_green_small.png"))
 
 #import the laser images
 yellow_laser = pygame.image.load(os.path.join("game_images","pixel_laser_yellow.png"))
-blue_laser = pygame.image.load(os.path.join("game_images","pixel_laser_blue.png"))
 red_laser = pygame.image.load(os.path.join("game_images","pixel_laser_red.png"))
 green_laser = pygame.image.load(os.path.join("game_images","pixel_laser_green.png"))
 
@@ -42,7 +40,7 @@ class Ship:
         self.y=y
         self.ship_img = None
         self.laser_img = None
-        self.lasers=[]           #array for storing the elements
+        self.lasers=[]           #array for storing the laser object
         self.buffer_timer=0
 
     def draw(self, win):
